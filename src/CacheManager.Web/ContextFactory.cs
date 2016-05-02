@@ -14,6 +14,7 @@ namespace CacheManager.Web
             }
 
             return new HttpContextWrapper(HttpContext.Current);
+
         }
     }
 }

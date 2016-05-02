@@ -9,6 +9,7 @@ namespace CacheManager.Core
     /// </summary>
     internal class JsonCacheItem
     {
+
         [JsonProperty("createdUtc")]
         public DateTime CreatedUtc { get; set; }
 
